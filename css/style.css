@@ -1,0 +1,215 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+/* ------------------------------ */
+
+.content {
+	color: rgb(255, 255, 0);
+	font-size: 30px;
+	text-align: center;
+}
+
+.title {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	background-color: rgb(63, 177, 230);
+	font-size: 30px;
+	max-width: 500px;
+	margin: 25px auto 10px auto;
+	padding: 100px;
+	border: 10px solid rgb(201, 138, 138);
+	border-radius: 50%;
+	box-shadow: 15px -10px 10px 15px rgba(14, 17, 19, 0.329);
+	text-shadow: 10px 0px 5px rgb(224, 123, 123);
+}
+
+.one {
+	max-width: 400px;
+	background-color: rgb(255, 99, 71);
+	margin: 0px 10px 10px 0px;
+	display: inline-block;
+	border-radius: 50%;
+}
+.two {
+	max-height: 200px;
+	max-width: 400px;
+	background-color: rgb(255, 99, 71);
+	margin: 0px 10px 10px 0px;
+	display: inline-block;
+	border-radius: 300px;
+	overflow: auto;
+	box-shadow: 0px 0px 20px 10px rgb(49, 223, 253);
+}
+.three {
+	max-width: 400px;
+	background-color: rgb(255, 99, 71);
+	margin: 0px 10px 10px 0px;
+	display: inline-block;
+	border-radius: 50%;
+	overflow: hidden;
+	border-top: 15px solid rgb(49, 223, 253);
+	border-bottom: 15px solid rgb(49, 223, 253);
+}
+.img {
+	max-width: 600px;
+	background-color: rgb(255, 99, 71);
+	margin: 0px 0px 10px 0px;
+	padding: 20px;
+	border: 20px solid rgb(24, 151, 224);
+	border-radius: 100px 0px 100px 0px;
+}
+.img:hover {
+	border: 100px solid transparent;
+}
+
+.four {
+	max-width: 1000px;
+	padding: 10px;
+	background-color: rgb(255, 99, 71);
+	margin: 0px 10px 50px 0px;
+	display: inline-block;
+	border-radius: 10px;
+	outline: 20px double rgb(75, 241, 89);
+}
+
+.span {
+	line-height: 80px;
+	display: inline;
+	color: rgb(252, 61, 61);
+	background-color: rgb(15, 255, 143);
+	font-size: 30px;
+	border: 15px solid #000;
+	border-radius: 50%;
+}
+
+.opacity {
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+	max-width: 300px;
+	border-radius: 0px 100px 100px 0px;
+	border: 10px solid rgb(255, 0, 0);
+	background-color: rgb(0, 33, 63);
+	color: red;
+	font-size: 30px;
+	visibility: hidden;
+}
+.visibility {
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+	max-width: 300px;
+	border-radius: 0px 100px 100px 0px;
+	border: 10px solid rgb(255, 0, 0);
+	background-color: rgb(0, 33, 63);
+	color: red;
+	font-size: 30px;
+	opacity: 0.6;
+}
+
+/* ДЗ */
+.titletwo {
+	margin-bottom: 25px;
+	text-align: center;
+	color: rgb(0, 255, 0);
+	background-color: #000;
+	font-size: 35px;
+}
+
+.circle {
+	margin: 0px 0px 30px 10px;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	background-color: rgb(255, 82, 82);
+}
+
+.paragraph {
+	width: 500px;
+	background-color: rgb(255, 82, 82);
+	color: rgb(255, 255, 255);
+	opacity: 0.5;
+	margin: 0px 0px 20px 0px;
+}
+
+.borderspan {
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(255, 82, 82);
+	display: block;
+	border: 5px solid #000;
+	margin: 0px 0px 25px 0px;
+}
+
+.borderp {
+	margin: 0px auto 40px auto;
+	max-width: 500px;
+	font-size: 30px;
+	background-color: rgb(255, 82, 82);
+	color: rgb(255, 255, 255);
+	border-top: 10px dashed #000;
+	border-right: 40px solid #000;
+	border-bottom: 30px dotted #000;
+	border-left: 20px double #000;
+}
+
+.link {
+	text-align: center;
+	padding: 5px;
+	max-width: 200px;
+	margin: 0px auto 0px auto;
+	background-color: rgb(206, 171, 58);
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	display: block;
+	box-shadow: 0px 0px 20px rgb(255, 255, 255);
+	border: 5px solid rgb(0, 0, 0);
+	border-radius: 10px;
+}
+.link:hover {
+	border: 5px solid transparent;
+	box-shadow: 0px 0px 30px rgb(0, 0, 0);
+}
